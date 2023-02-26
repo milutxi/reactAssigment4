@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to left, #1c272b, #4f9695);
+}
+
+.titleHeader {
+    font-size: 7em;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 4em;
+    margin: 0;
+}
+
+.info {
+    font-size: 11,5em;
+}
+
+div {
+    margin: auto;
+}
+
+.containerCharacter {
+    background-color: #ffffff;
+    border-radius: 65px;
+    display: flex;
+    height: 600px;
+    margin: 6px;
+    padding: 0;
+    width: 100%;
+    
+}
+
+.left {
+    margin: 0;
+    padding: 6px;
+    width: 30%;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 12px 40px;
+    width: 55%;
+
+}
+
+.actor {
+    color: #1c272b;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.name {
+    color: #1c272b;
+    font-family: quicksandBold, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+
+img {
+    border-radius: 65px;
+    width: 100%;
+    height: 100%;
+}
+
+.right {
+    color: #1c272b;
+    display: flex;
+    font-size: 5em;
+    margin: 0;
+}
+
+.heart {
+    margin: 5px 35px;
+    text-align: right;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+    body {
+        padding: 5px;
+    }
+    .titleHeader {
+        font-size: 3em;
+    }
+
+    .subtitle {
+        font-size: 2em;
+    }
+
+    img{
+        border-radius: 35px;
+        width: 100%;
+    }
+
+    .containerCharacter {
+        border-radius: 35px;
+        height: 150px;
+        margin: 6px 0;
+        padding: 0;
+        width: 100%;  
+    }
+
+    .left {
+    
+    }
+
+    .middle {
+        padding: 12px 10px;
+    
+    }
+
+    .actor {
+      font-size: 20px;
+    }
+    
+    .name {
+        font-size: 12px;
+    }
+
+    .heart {
+        font-size: 35px;
+        margin: 5px 23px;
+        text-align: right;
+        cursor: pointer;
+    }
+   
+}
+
+
+
+
+
+
+
+
