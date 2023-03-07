@@ -29,8 +29,9 @@ useEffect (() => {
       </header>
       <hr></hr>
 
-
-    {characters.map((character) => {
+    {characters.filter((character) => {
+      return character.image
+    }).map((character) => {
       return<CharacterComponent key={character.id} {...character}></CharacterComponent>
     })}
 
